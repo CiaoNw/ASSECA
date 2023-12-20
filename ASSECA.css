@@ -1,0 +1,173 @@
+html{
+    width: 100%;
+    margin: 0%;
+    font-size: 70px;
+    font-family: 'Poppins-regular';
+}
+@font-face{
+    font-family: 'Poppins-regular';
+    src: url('../ASSECA/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-semi-Bold';
+    src: url('../ASSECA/Poppins/Poppins-SemiBold.ttf');
+}
+
+header{
+    padding-bottom: 0.5%;
+    width: 100%;
+    margin: 0%;
+    color: white;
+    font-family: 'Poppins-semi-Bold';
+    font-size: larger;
+}
+nav{
+    background-image: url("../ASSECA/ressource/banniere.jpg");
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.izi{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    color: white;
+    font-size: 85px;
+}
+a:hover{
+    font-size: 83px;
+}
+div{
+    position: absolute;
+    right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+#img{
+    height: 3%;
+    width: 3%;
+    padding: 0.5%;
+    background-color: white;
+    border-radius: 50%;
+    margin: 1%;
+}
+.cult{
+    width: 110%;
+    margin: 1%;
+    margin-top: 0%;
+}
+.cultp{
+    font-size: 60%;
+    padding-left: 5%;
+    align-items: center;
+    margin-top: 0%;
+}
+#cu{
+    display: flex;
+    flex-direction: row;
+    font-size: 85px;
+    width: 100%;
+}
+#spo_edu{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.article{
+    border: 3px;
+    box-shadow: 3px 10px 20px 0px #f18a8a;
+    border-radius: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    width: 55%;
+    height: 2100px;
+    overflow: scroll;
+}
+.articles{
+    border: 3px;
+    box-shadow: 3px 10px 20px 0px rgb(241, 138, 138);
+    border-radius: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 2%;
+    margin-top: 0%;
+    width: 45%;
+    height: 975px;
+    overflow: scroll;
+}
+.articless{
+    border: 3px;
+    box-shadow: 3px 10px 20px 0px rgb(241, 138, 138);
+    border-radius: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 2%;
+    margin-top: 0%;
+    width: 45%;
+    height: 975px;
+    overflow: scroll;
+
+}
+#space{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+h1{
+    color: #fc5151;
+}
+strong{
+    color: rgb(252, 81, 81);
+}
+.spor{
+    font-size: 75%;
+    margin: 0px;
+    padding: 0%;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+#bigcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.range{
+    display: flex;
+    flex-direction: row;
+    font-size: 70%;
+    width: 550px;
+}
+#col{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.colu{
+    border: #000000 1px solid;
+    padding: 50px;
+    margin: 0%;
+    width: 550px;
+}
+#table{
+    border: #000000 1px solid;
+    padding: 50px;
+    font-size: 70%;
+}
+tr{
+    border: #000000 1px solid;
+    padding: 50px;
+    margin: 0%;
+}
+td{
+    border: #000000 1px solid;
+    padding: 50px;
+    margin: 0%;
+}
